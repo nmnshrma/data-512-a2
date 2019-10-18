@@ -2,7 +2,7 @@
 DATA 512 A Au 19: Human-Centered Data Science
 
 ## Project Goal
-The project aims to perform a simple analysis done with data for the monthly traffic on English Wikipedia from January 1 2008 through August 30 2019. The data is fetched through a combination of data from two different [Wikimedia REST API](https://www.mediawiki.org/wiki/REST_API) endpoints, in a single notebook. The key goal is to adhere to follow the best practices for open scientific research and making the project fully reproducible by others. 
+The project aims to do some basic exploration of biases that exist in the english wikipedia pages. We use the publicly available wikipedia dataset about politicians from various countries along with [ORES](https://www.mediawiki.org/wiki/ORES), a machine learning web service, that 'rates' the articles on certain parameters and assigns it a list of probabilities as a score reflective of its [quality](https://en.wikipedia.org/wiki/Wikipedia:Content_assessment#Grades), per the API. We use this and another publicly available data set, called the [world population datasheet](https://www.prb.org/international/indicator/population/table/) published by the Population Reference Bureau for better evaluation.
 
 ## Project Structure
 ```
