@@ -9,7 +9,6 @@ The project aims to do some basic exploration of biases that exist in the englis
 .
 ├── LICENSE
 ├── README.md
-├── dict.csv
 ├── hcds-a2-bias.ipynb
 ├── results-data
 │   ├── quality-map.csv
